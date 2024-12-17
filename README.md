@@ -11,7 +11,7 @@ The study analyzes the Central African Republic's export data (1960–2017) usin
 ## Tools
 - Python for analysis and visualization.
 - Models: AR(2), MA(1), ARMA(1,2).
-- Metrics: AIC, BIC, MSE.
+- Metrics: AIC, BIC, MSE (for ARMA(1, 2)).
 ## Results
 - AR(2) and ARMA(1,2) were selected as the best models.
 
@@ -24,5 +24,9 @@ $$
 y_t = 0.337728 y_{t-1} -0.883232 w_{t-1}+ 0.441870w_{t-2} + w_t
 $$
 
-where $$ y_t = x_t - x_{t-1} is the first-order difference on original data.
+where 
+
+$$ y_t = x_t - x_{t-1} $$ 
+
+is the first-order difference on original data.
 - Forecasts for 2018–2021 show export values stabilizing around 12.6 million USD.
