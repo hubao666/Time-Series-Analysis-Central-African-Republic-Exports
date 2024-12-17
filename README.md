@@ -1,4 +1,3 @@
-# Time-Series-Analysis-Central-African-Republic-Exports
 ## Topic
 The study analyzes the Central African Republic's export data (1960–2017) using time series analysis to identify trends and forecast future values, supporting economic planning.
 
@@ -15,6 +14,8 @@ The study analyzes the Central African Republic's export data (1960–2017) usin
 - Metrics: AIC, BIC, MSE.
 ## Results
 - AR(2) and ARMA(1,2) were selected as the best models.
+
+
 $$
 y_t = -0.505033 y_{t-1} -0.289666 y_{t-2}+ w_t
 $$
